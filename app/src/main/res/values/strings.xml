@@ -1,3 +1,4 @@
+<?xml version="1.0" encoding="utf-8"?>
 <resources>
     <string name="app_name">Turismo_Jardin</string>
     <string name="action_settings">Settings</string>
@@ -131,6 +132,21 @@ Servicios:\n
 
     <string name="acerca">Acerca De</string>
     <string name="acercainfo">"Turismo_Jardin" desarrollada por Pablo Henao.</string>
+    <string name="title_activity_demografia">Demografia</string>
+    <string name="informacion">Información</string>
+    <string name="principal">Principal</string>
+    <string name="demografiainfo">
+
+        \nPoblación Total: 14.177 hab
+\nZona urbana: 92,0/%%
+\nZona rural: 83,7/%%
+\nEtnografía
+\nSegún las cifras presentadas por el DANE del censo 2005, la composición etnográfica del municipio es:
+\nMestizos y Blancos (89,3/%%)
+\nIndígenas (10,0/%%)
+\nAfrocolombianos (0,7/%%)
+
+</string>
 
 
 </resources>

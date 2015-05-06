@@ -58,6 +58,12 @@ public class MainActivity extends ActionBarActivity {
             return true;
         }
 
+        if(id == R.id.Demografia){
+            Intent i = new Intent(this, DemografiaActivity.class);
+            startActivity(i);
+            return true;
+        }
+
 
 
         return super.onOptionsItemSelected(item);

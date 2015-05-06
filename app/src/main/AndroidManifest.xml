@@ -32,6 +32,10 @@
             android:name=".AcercaActivity"
             android:label="@string/title_activity_acerca" >
         </activity>
+        <activity
+            android:name=".DemografiaActivity"
+            android:label="@string/title_activity_demografia" >
+        </activity>
     </application>
 
 </manifest>

@@ -16,6 +16,10 @@
         android:title="@string/turismo"
         android:orderInCategory="100"/>
 
+    <item android:id="@+id/Demografia"
+        android:title="@string/title_activity_demografia"
+        android:orderInCategory="100"/>
+
     <item android:id="@+id/Acerca"
         android:title="@string/acerca"
         android:orderInCategory="100"/>
