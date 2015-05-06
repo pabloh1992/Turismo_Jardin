@@ -1,5 +1,6 @@
 package com.pablohenao.turismo_jardin;
 
+import android.content.Intent;
 import android.support.v7.app.ActionBarActivity;
 import android.os.Bundle;
 import android.view.Menu;
@@ -14,7 +15,7 @@ public class DemografiaActivity extends ActionBarActivity {
         setContentView(R.layout.activity_demografia);
     }
 
-/*
+
     @Override
     public boolean onCreateOptionsMenu(Menu menu) {
         // Inflate the menu; this adds items to the action bar if it is present.
@@ -22,7 +23,7 @@ public class DemografiaActivity extends ActionBarActivity {
         return true;
     }
 
-    @Override
+
     public boolean onOptionsItemSelected(MenuItem item) {
         // Handle action bar item clicks here. The action bar will
         // automatically handle clicks on the Home/Up button, so long
@@ -30,11 +31,39 @@ public class DemografiaActivity extends ActionBarActivity {
         int id = item.getItemId();
 
         //noinspection SimplifiableIfStatement
-        if (id == R.id.action_settings) {
+
+        if(id == R.id.Hoteles){
+            Intent i = new Intent(this, HotelesActivity.class);
+            startActivity(i);
             return true;
         }
 
+        if(id == R.id.Principal){
+            Intent i = new Intent(this, MainActivity.class);
+            startActivity(i);
+            return true;
+        }
+
+        if(id == R.id.Turismo){
+            Intent i = new Intent(this, TurismoActivity.class);
+            startActivity(i);
+            return true;
+        }
+
+        if(id == R.id.Acerca){
+            Intent i = new Intent(this, AcercaActivity.class);
+            startActivity(i);
+            return true;
+        }
+
+        if(id == R.id.Bares){
+            Intent i = new Intent(this, BaresActivity.class);
+            startActivity(i);
+            return true;
+        }
+
+
+
         return super.onOptionsItemSelected(item);
     }
-    */
 }

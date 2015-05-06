@@ -132,19 +132,18 @@ Services: Restaurant, Wet Area (Steambath and Jacuzzi), games and reading room, 
     <string name="acerca">About Us</string>
     <string name="acercainfo">"Turismo_Jardin" developed by Pablo Henao.</string>
 
-    <string name="title_activity_demografia">Demografia</string>
-    <string name="informacion">Información</string>
+    <string name="title_activity_demografia">Demographics</string>
+    <string name="informacion">Information</string>
 
     <string name="demografiainfo">
 
-        \nPoblación Total: 14.177 hab
-\nZona urbana: 92,0/%%
-\nZona rural: 83,7/%%
-\nEtnografía
-\nSegún las cifras presentadas por el DANE del censo 2005, la composición etnográfica del municipio es:
-\nMestizos y Blancos (89,3/%%)
-\nIndígenas (10,0/%%)
-\nAfrocolombianos (0,7/%%)
+
+        \nAccording to figures presented by the DANE 2005 census, the ethnographic makeup of the township is as follows:
+
+\nMestizo and White: 89.3\%%
+\nIndigenous: 10\%%
+\nAfro-Colombian: 0.7\%%
+
 </string>
 
 
