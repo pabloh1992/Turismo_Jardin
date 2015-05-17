@@ -76,7 +76,6 @@ public class TurismoActivity extends ActionBarActivity {
         public void onNothingSelected(AdapterView<?> parent) {
             // Another interface callback
         }
-
     }
 
     public boolean onCreateOptionsMenu(Menu menu) {
