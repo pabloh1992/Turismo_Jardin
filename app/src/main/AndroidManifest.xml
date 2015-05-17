@@ -16,26 +16,6 @@
                 <category android:name="android.intent.category.LAUNCHER" />
             </intent-filter>
         </activity>
-        <activity
-            android:name=".HotelesActivity"
-            android:label="@string/title_activity_hoteles" >
-        </activity>
-        <activity
-            android:name=".BaresActivity"
-            android:label="@string/title_activity_bares" >
-        </activity>
-        <activity
-            android:name=".TurismoActivity"
-            android:label="@string/title_activity_turismo" >
-        </activity>
-        <activity
-            android:name=".AcercaActivity"
-            android:label="@string/title_activity_acerca" >
-        </activity>
-        <activity
-            android:name=".DemografiaActivity"
-            android:label="@string/title_activity_demografia" >
-        </activity>
     </application>
 
 </manifest>
