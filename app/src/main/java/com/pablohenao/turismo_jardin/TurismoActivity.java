@@ -70,7 +70,6 @@ public class TurismoActivity extends ActionBarActivity {
                                    int pos, long id) {
             // An item was selected. You can retrieve the selected item using
             // parent.getItemAtPosition(pos)
-
         }
 
         public void onNothingSelected(AdapterView<?> parent) {
